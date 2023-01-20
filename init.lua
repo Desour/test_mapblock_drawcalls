@@ -21,8 +21,6 @@ local function register_colored_node(name, r, g, b)
 	})
 end
 
-register_colored_node("test_mapblock_drawcalls:estagkh", 0xf0, 0, 0) -- TODO: remove
-
 local function range_map_tolist0(min, max, step, fun)
 	local t = {}
 	local idx = 0
